@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #cccccc;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+body{
+
+    font-family: 'Noto Sans Japanese', sans-serif;
+    position: relative;
+}
+
+header h1{
+    display: block;
+    line-height: 100px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.center{
+    width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.subwindow{
+    width: 100%;
+    text-align: center;
+}
+
+table.reg{
+    width: 100%;
+}
+
+td.reg:nth-child(odd){
+    width: 120px;
+    height: 50px;
+    background-color: white;
+}
+td.reg:nth-child(even){
+    text-align: left;
+    height: 50px;
+    padding-left: 50px;
+}
+
+.reg input{
+    height: 30px;
+}
+
+.reg2{
+    width: 150px;
+    height:30px ;
+}
+
+.button2{
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+}
+
+#members{
+    height: 40px;
+}
+
+
+#button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#l_new{
+    float: left;
+}
+
+#l_button{
+    float: right;
+}
+
+.welcome{
+    text-align: left;
+    display: block;
+    padding-top: auto;
+    padding-bottom: auto;
+    line-height: 40px;
+}
+
+#l_change{
+    float: right;
+    margin-right: 25px;
+}
+
+#l_howto{
+    float: right;
+    margin-right: 25px;
+}
+
+#l_login{
+    float: right;
+}
+
+#l_logout{
+    float: right;
+}
+
+#calender{
+    position: relative;
+    clear: both;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.calender > caption{
+    font-size: 20px;
+}
+
+.calender > th,td{
+    width: 130px;
+    height: 80px;
+    text-align: center;
+
+}
+
+.calender > th:nth-child(7n+1),td:nth-child(7n+1){
+    background-color: pink;
+}
+
+.calender > th:nth-child(7n),td:nth-child(7n){
+    background-color: powderblue;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+}
+
+.info{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.rm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rooms{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 10px;
+    background-color: cyan;
+    margin: 5px;
+    text-align: center;
+}
+
+.roomno{
+    display: inline-block;
+}
+
+.rooms button{
+    position: absolute;
+    display: block;
+    width: 36px;
+    height: 36px;
+    top: 50%;
+    left: 62px;
+
+    transform: translateY(-50%);
+}
+
+.noEnpty{
+    pointer-events: none;
+}
+
+.bcenter{
+    display: inline-block;
+    text
+}
+
+.Rroom{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 40px;
+}
+
+.Rform{
+    size: 10px;
+}
+
+.Rnum{
+    height: 25px;
+}
+
+.Rname{
+    width: 100px;
+    height: 25px;
+}
+
+#change{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+#prevMonth{
+    float: left;
+}
+
+
+#nextMonth{
+    float: right;
+}
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #cccccc;
+}
+
+footer p{
+    line-height: 50px;
+}

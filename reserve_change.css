@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #cccccc;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+body{
+
+    font-family: 'Noto Sans Japanese', sans-serif;
+    position: relative;
+}
+
+header h1{
+    display: block;
+    line-height: 100px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.center{
+    width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.subwindow{
+    width: 100%;
+    text-align: center;
+}
+
+thead{
+    background-color: white;
+}
+
+
+th, td{
+    height: 40px;
+    text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color: #EEFFFF;
+}
+
+tr:nth-child(even){
+    background-color: #FFEEFF;
+}
+
+table{
+    width: 600px;
+    background-color: black;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.troom .tnum .torder{
+    width: 140px;
+}
+
+.tname{
+    width: 180px;
+}
+
+.triple{
+    width: 420px;
+}
+
+.tm{
+    width: 200px;
+}
+
+
+.button2{
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+}
+
+
+#button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#l_new{
+    float: left;
+}
+
+#l_button{
+    float: right;
+}
+
+#calender{
+    position: relative;
+    clear: both;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.calender > caption{
+    font-size: 20px;
+}
+
+
+.button{
+    width: 150px;
+    height: 40px;
+}
+
+.info{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.rm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rooms{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 10px;
+    background-color: cyan;
+    margin: 5px;
+    text-align: center;
+}
+
+.roomno{
+    display: inline-block;
+}
+
+.rooms button{
+    position: absolute;
+    display: block;
+    width: 36px;
+    height: 36px;
+    top: 50%;
+    left: 62px;
+
+    transform: translateY(-50%);
+}
+
+.noEnpty{
+    pointer-events: none;
+}
+
+.bcenter{
+    display: inline-block;
+    text
+}
+
+
+.Rform{
+    size: 10px;
+}
+
+.Rnum{
+    height: 25px;
+}
+
+.Rname{
+    width: 100px;
+    height: 25px;
+}
+
+#change{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+#prevMonth{
+    float: left;
+}
+
+
+#nextMonth{
+    float: right;
+}
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #cccccc;
+}
+
+footer p{
+    line-height: 50px;
+}

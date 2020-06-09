@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #cccccc;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+body{
+
+    font-family: 'Noto Sans Japanese', sans-serif;
+    position: relative;
+}
+
+.subwindow{
+    width: 100%;
+    text-align: center;
+}
+
+.rm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1{
+    display: block;
+    line-height: 100px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+th, td{
+    height: 40px;
+    text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color: #EEFFFF;
+}
+
+tr:nth-child(even){
+    background-color: #FFEEFF;
+}
+
+.roomno .num{
+    width: 80px;
+}
+
+.leader{
+    width: 120px;
+}
+
+.oid{
+    width: 120px;
+}
+
+
+.button{
+    font-size: 10px;
+    width: 50px;
+    height: 30px;
+    margin: auto 5px;
+}
+
+.button2{
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #cccccc;
+}
+
+footer p{
+    line-height: 50px;
+}

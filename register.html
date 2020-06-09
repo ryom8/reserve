@@ -1,0 +1,82 @@
+<!document html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<link href="index.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="register.js"></script>
+    <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+    <script src="js/lightbox.min.js"></script>
+
+	<title>予約システム</title>
+</head>
+<body>
+    <header>
+        <h1>ユーザー登録</h1>
+    </header>
+
+
+    <div class="center" id="register">
+        <form action="reg.php" method="POST">
+        <table class="reg">
+            <tr class="reg">
+                <td class="reg">お名前</td>
+                <td class="reg">姓：<input type="text" name="lastname" required>　名：<input type="text" name="firstname" required></td>
+            </tr>
+            <tr class="reg">
+                <td class="reg">メールアドレス</td>
+                <td class="reg"><input type="email" name="email" id="ad1" required></td>
+            </tr>
+            <tr class="reg">
+                <td class="reg">メールアドレス（確認）</td>
+                <td class="reg"><input type="email" id="ad2" required></td>
+            </tr>
+            <tr class="reg">
+                <td class="reg">パスワード</td>
+                <td class="reg"><input type="password" name="pass" minlength="8" maxlength="16" required></td>
+            </tr>
+            <tr class="reg">
+                <td class="reg">性別</td>
+                <td class="reg"><select name="sex" class="reg2" required>
+                    <option>男性</option>
+                    <option>女性</option>
+                </select> </td>
+            </tr>
+            <tr class="reg">
+                <td class="reg">ご職業</td>
+                <td class="reg"><select name="job" class="reg2" required>
+                    <option>学生</option>
+                    <option>公務員</option>
+                    <option>会社員</option>
+                    <option>主婦</option>
+                    <option>その他</option>
+                </select> </td>
+            </tr>
+            <tr class="reg">
+                <td class="reg">郵便番号</td>
+                <td class="reg"><input type="text" name="zip01" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','pref01','addr01');"></td>
+            </tr>
+            <tr class="reg">
+                <td class="reg">都道府県</td>
+                <td class="reg"><input type="text" name="pref01" size="20" maxlength="8"></td>
+            </tr>
+            <tr class="reg">
+                <td class="reg">以降のご住所</td>
+                <td class="reg"><input type="text" name="addr01" size="60"></td>
+            </tr>
+        </table>
+        <input type="submit" value="登録" id="regbutton" class="button2">
+        <input type="reset" class="button2" value="リセット">
+        <button id="l_top" class="button2">戻る</button>
+        </form>
+       
+    </div>
+
+    <footer>
+        <p>予約システム Ver.1.0</p>
+    </footer>
+</body>
+</html>

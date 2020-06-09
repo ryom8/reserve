@@ -1,0 +1,90 @@
+<!document html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<link href="info.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="login.js"></script>
+
+    <title>使い方と料金について</title>
+</head>
+<body>
+<header>
+<h1>使い方と料金について</h1>
+</header>
+<div class="subwindow">
+    <div class="cp_tab">
+        <input type="radio" name="cp_tab" id="tab1_1" aria-controls="first_tab01" checked>
+        <label for="tab1_1">はじめに</label>
+        <input type="radio" name="cp_tab" id="tab1_2" aria-controls="second_tab01">
+        <label for="tab1_2">宿泊料金</label>
+        <input type="radio" name="cp_tab" id="tab1_3" aria-controls="third_tab01">
+        <label for="tab1_3">登録と宿泊</label>
+        <input type="radio" name="cp_tab" id="tab1_4" aria-controls="force_tab01">
+        <label for="tab1_4">変更・キャンセル</label>
+        <div class="cp_tabpanels">
+            <div id="first_tab01" class="cp_tabpanel">
+            <h2>はじめに</h2>
+            <p>この度は当サイトにアクセスいただき、ありがとうございます。<br>
+            当サイトは、旅館の予約システムとなります。</p>
+            <p>実際にご利用いただくには、以下の流れで行ってください。</p>
+            <p><ul>
+                <li>「新規登録」よりユーザー仮登録を行う</li>
+                <li>届いたメールより本登録を行う</li>
+                <li>本サイトよりログインを行う</li>
+                <li>カレンダーのボタン（◎〇△）より宿泊希望日を選択</li>
+                <li>空室の部屋のボタンを選択し、宿泊者様の名前と人数を入力</li>
+                <li>予約完了！</li>
+            </ul></p>
+            </div>
+            <div id="second_tab01" class="cp_tabpanel">
+            <h2>宿泊料金</h2>
+            <table class="price">
+                <tr><td>平日（月～木）</td><td>8,000円</td></tr>
+                <tr><td>週末（金～日）</td><td>10,000円</td></tr>
+                <tr><td>大型連休時 <small>※2</small></td><td>12,000円</td></tr>
+            </table>
+            <p>※1 １名様あたりの料金です。<br>
+            ※2 年末年始、ゴールデンウィーク、お盆の時期</p>
+            <h2>キャンセル料金</h2>
+            <table>
+                <tr><td>～4日前</td><td>無料</td></tr>
+                <tr><td>3～1日</td><td>宿泊料金の50％</td></tr>
+                <tr><td>当日</td><td>宿泊料金の100％</td></tr>
+            </table class="price">
+            </div>
+            <div id="third_tab01" class="cp_tabpanel">
+            <h2>登録と予約</h2>
+            <p>予約を行うためには、「ユーザー登録」を行う必要がございます。<br>
+            トップページの「新規登録」より、受信可能なメールアドレスを入力して仮登録を行います。メールに正登録を行うためのURLが送信されますので、24時間以内に登録お願いいたします。</p>
+            <p>登録後は、トップページより「ログイン」して頂くことで予約が可能です。<br>
+            カレンダー下のボタンをクリックすると、客室情報が確認できます。
+            空いている部屋「〇」をクリックし、宿泊人数と代表者名（カタカナ）をご記入ください。<br>
+            複数部屋を予約することも可能です。
+            記入が終わりましたら、「予約」ボタンをクリックしてください。<br>
+            確認画面後、問題がなければ予約が完了します。<br>
+            また、確認のメールが届きますのでご確認ください。</p>
+            </div>
+            <div id="force_tab01" class="cp_tabpanel">
+            <h2>変更・キャンセル</h2>
+            <p>予約の変更に関しては、ログイン後の「変更・キャンセル」ボタンより行えます。<br>
+            予約一覧が表示されますので、ウィンドウ右側の「操作」より行いたい操作を選択してください。</p>
+            <h4>確認</h4>
+            <p>予約の部屋及び料金の確認が行えます。</p>
+            <h4>変更</h4>
+            <p>予約の変更・部屋のキャンセル等が行えます。<br>また、その日に複数予約されており、注文番号が別々の注文番号を１つに統合することが可能です。</p>
+            <h4>キャンセル</h4>
+            <p>その注文番号のすべての予約のキャンセルを行います。</p>
+            </div>
+        </div>
+    </div>
+    <div class="cbutton">
+    <button id="wclose" class="button2">閉じる</button>
+    </div>
+
+</div>
+</body>
+</html>
