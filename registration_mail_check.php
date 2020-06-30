@@ -20,7 +20,7 @@
     }
 
     $urltoken = hash('sha256',uniqid(rand(),1));
-    $url = 'https://twinklesky.biz/fl/reserve/registration_form.php' . '?urltoken=' .$urltoken;
+    $url = 'https://verse-straycat.ssl-lolipop.jp/fl/reserve/registration_form.php' . '?urltoken=' .$urltoken;
 
     try{
         require_once('./DBInfo.php');
