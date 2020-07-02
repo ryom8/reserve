@@ -111,7 +111,7 @@
 
 ======
 予約システム
-https://twinklesky.biz/fl/reserve/
+https://verse-straycat.ssl-lolipop.jp/fl/reserve/
 EOM;
 
         mb_language('ja');

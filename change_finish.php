@@ -370,7 +370,7 @@ $mailContent2 = <<< EOM2
 
 ======
 予約システム
-https://twinklesky.biz/fl/reserve/
+https://verse-straycat.ssl-lolipop.jp/fl/reserve/
 EOM2;
 
         $body = $mailContent1;
